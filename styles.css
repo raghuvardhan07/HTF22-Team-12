@@ -1,0 +1,15 @@
+.landingpage{
+    background-color:beige;
+    height: 700px;
+}
+.details{
+    background-color: azure;
+    height: 700px;
+}
+.content{
+    font-family: sans-serif ;
+    font-size: 5rem;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+}   
