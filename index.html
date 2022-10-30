@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href='./none.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="icon" href="icons/weather.png">
+</head>
+<body>
+    <div class="mainbox">
+     <form id="search-box"><input type="search"
+         placeholder="Enter the city "
+          id="search-input"
+           required
+           autocomplete="off"
+            />
+        <input type="submit" name="Check" id="search-button"/></form>
+            <br><br> 
+        <div class="flex1">
+            <div id="temp-fig">         
+                <p id ="fig"><span id="temp-value">26</span> <span id="temp-unit">°C</span> </p>
+            </div> 
+        <p class="area"><span id ="location">------</span></p>
+        </div>
+            
+        <!-- <div id="icons"> 
+            <img id="temp-icon" src="icons\sun.jpeg" alt="" width="200px" height="200px" >
+        </div>  -->
+        <div id="climate">
+            <p>.........</p> 
+        </div>
+        <!-- <img src="icons/sunanime.gif" alt="" class="sun"> -->
+    </div>
+
+
+    <a href="https://www.flaticon.com/free-animated-icons/sun" title="sun animated icons" class="links">Sun animated icons created by Freepik - Flaticon</a>  
+</body>
+<script src="jsint2.js"></script>
+</html>
